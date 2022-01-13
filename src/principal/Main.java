@@ -7,31 +7,6 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
 
-
-        /*
-           Scanner sc = new Scanner(System.in);
-
-        int lados;
-
-        System.out.println("Introduzca el lado");
-        lados= sc.nextInt();
-
-
-        for(int i=0; i<lados;i++){
-
-            System.out.println(" ");
-
-          for (int j=0 ; j<lados ; j++){
-
-              System.out.print(" * ");
-
-          }
-
-        }
-
-
-
-         */
         Scanner sc = new Scanner(System.in);
 
 

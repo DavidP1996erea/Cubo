@@ -112,15 +112,21 @@ public class Cubo {
 
             System.out.println("");
 
+
             for (int j = 0; j < capacidadMaxima; j++) {
 
                 if(j==1 || j == capacidadMaxima-1 && i!=capacidadMaxima-1) {
                     System.out.print(" * ");
                 }else if(i==capacidadMaxima-1 && j!=0) {
                     System.out.print(" * ");
-                }else if (j!=0){
+                }else if (j!=0 && i>=contenidoActual-1){
+                    System.out.print(" l ");
+                }else{
                     System.out.print("   ");
                 }
+
+
+
 
             }
 
